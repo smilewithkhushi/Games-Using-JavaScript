@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Challenges</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<script type="javascript">
+    function sayHello(){
+        alert('hello there');
+    }
+</script>
+    <center>
+        Click here to say hello <br>
+
+        <input type="button" name="say hello" onclick="sayHello()"> 
+        <div class="container"> 
+    <h2> Challenge 1: YOUR AGE IN DAYS</h2>
+
+    <div class='flex-box-container'> 
+
+    <div>
+    <button class='btn-primary' onclick="ageInDays()"> Click me</button>
+    </div>
+    <div>
+        
+    <button class='btn-danger' onclick="reset()"> Reset</button>
+    </div>
+    </div>
+    <div class="flex-box-container">
+         <div id="flex-box-result"> </div> 
+    </div>
+</div>
+
+
+<div class="container-2">   
+        <h2> CHALLENGE 2: Cat Generator</h2>
+        <button class='btn-primary' id="cat-generator" onclick="GenerateCat()"> Generate Cat</button>
+
+        <div class="flex-box-container-2" id="flex-cat-gen"> 
+
+        </div>
+    
+</div>
+
+<div class='container-3'>
+    <h2> CHALLENGE 3: ROCK PAPER SCISSORS</h2>
+    <div class="flex-box-rps" id="flex-box-rps-div">
+        <img id="rock" src='rock.png' height="150px" width="150px" onclick="rpsGame(this)" alt="rock image">
+
+        <img id="paper" src="paper.png" height="150px" width="150px" alt='paper image' onclick="rpsGame(this)">
+
+
+        <img id="scissor" src="scissor.png" height="150px" width="150px" alt="scissor image" onclick="rpsGame(this)">
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src='script.js'> </script>
+</center>
+</body>
+</html>
