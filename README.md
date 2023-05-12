@@ -7,4 +7,3 @@ CHALLENGE 3 : Stone Paper Scissors
 
 
 
-Last Updated on July-Aug 2021
